@@ -1,0 +1,1 @@
+print(*([] if input() and False else sorted(list(input().split()),key=lambda x:(sum([int(i) for i in x]) << 32)+int(x))))

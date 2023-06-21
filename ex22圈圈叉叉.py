@@ -1,0 +1,2 @@
+L1,L2,L3 = list(map(int,input().split())),list(map(int,input().split())),list(map(int,input().split()))
+print(True if min([sum(L1),sum(L2),sum(L3),L1[0]+L2[0]+L3[0],L1[1]+L2[1]+L3[1],L1[2]+L2[2]+L3[2],L1[0]+L2[1]+L3[2],L1[2]+L2[1]+L3[0]])==0 or max([sum(L1),sum(L2),sum(L3),L1[0]+L2[0]+L3[0],L1[1]+L2[1]+L3[1],L1[2]+L2[2]+L3[2],L1[0]+L2[1]+L3[2],L1[2]+L2[1]+L3[0]])==3 else False)

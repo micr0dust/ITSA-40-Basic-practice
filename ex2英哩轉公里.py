@@ -1,0 +1,1 @@
+print("%.1f" % (int(input())*1.6))
