@@ -1,4 +1,1 @@
-cases = int(input())
-for i in range(cases):
-    line = input().split()
-    print(*sorted(line,key=lambda e:-(ord(e[0])*1000+len(e)*100+int(e[-1]))))
+for i in range(int(input())): print(*sorted(input().split(),key=lambda n:-(ord(n[0])*100+int(n[1:3]))))
